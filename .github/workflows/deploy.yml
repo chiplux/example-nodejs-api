@@ -30,4 +30,4 @@ jobs:
           echo "DB_PORT=${{ secrets.DB_PORT }}" >> .env
           echo "PORT=${{ secrets.PORT }}" >> .env
 
-          docker-compose up -d --build
+          docker compose up -d --build
