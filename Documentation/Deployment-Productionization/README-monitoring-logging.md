@@ -69,12 +69,8 @@ sudo apt-get update
 sudo apt-get install -y percona-pmm-client
 ```
 
-Add PMM Client to PMM Server:
-``` bash
-pmm-admin config --server-insecure-tls \
-    --server-url=https://service_token:<example_token>@52.63.115.158:443 \
-    52.91.150.166 generic example-nodejs-api
-```
+Continue to add PMM Client to PMM Server, reference: https://docs.percona.com/percona-monitoring-and-management/3/install-pmm/install-pmm-client/package_manager.html
+
 Example result:
 
 ![alt text](image-6.png)
